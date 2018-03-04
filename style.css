@@ -83,6 +83,9 @@ p {
   height: 80px;
   background-color: #E7E6E1;
 }
+.nav li.active a {
+  background-color: #F7F6E7;
+}
 .nav:hover li {
   height: 60px;
 }
@@ -90,7 +93,7 @@ p {
   height: 80px;
 }
 .nav li a {
-  color: white;
+  color: #537791;
   width: 70px;
   min-height: 40px;
   display: block;
@@ -163,6 +166,7 @@ header ul li a:hover{
   padding: 10px;
   margin-top:-16px;
   overflow: hidden;
+  color: #537791;
 }
 
 .texter {
@@ -175,21 +179,19 @@ header ul li a:hover{
 }
 
 .texter h1 {
-  color: aliceblue;
   font-size: 40px;
   margin-bottom: 30px;
 }
 
 .texter p {
-  color: aliceblue;
   font-size: 20px;
   letter-spacing: 1.1px;
   margin-bottom: 25px;
 }
 
 .texter a{
-  color:azure;
-  background-color: #f83f3e;
+  color: azure;
+  background-color: #537791;
   display: inline-block;
   width: 150px;
   min-height: 45px;
@@ -238,6 +240,7 @@ header ul li a:hover{
   margin: 0 auto;
   margin-top: 0px;
   clear: both;
+  color: #537791;
 }
 
 .box {
@@ -264,24 +267,18 @@ header ul li a:hover{
 .box p {
   margin: 10px 0px 20px 0px;
   font-weight: bold;
-  color: aliceblue;
   letter-spacing: 1.1px;
   line-height: 1.7;
 }
 
 .box a {
   color:azure;
-  background-color: #06fc97;
+  background-color: #537791;
   display: inline-block;
   width: 150px;
   min-height: 45px;
   line-height: 45px;
   text-align: center;
-}
-
-.box a:hover {
-  background-color: #465003;
-  color: white;
 }
 
 /*---- Teach section Start-----*/
@@ -301,7 +298,7 @@ header ul li a:hover{
 
 .methods h1 {
   font-size: 36px;
-  color: #08f3f0;
+  color: #537791;
   letter-spacing: -1px;
   margin-top: -50px;
 }
@@ -317,17 +314,12 @@ header ul li a:hover{
 
 .methods a {
   color:azure;
-  background-color: #9dbb1d;
+  background-color: #537791;
   display: inline-block;
   width: 150px;
   min-height: 45px;
   line-height: 45px;
   text-align: center;
-}
-
-.methods a:hover {
-  background-color: ;
-  color: white;
 }
 
 .methods-img{
@@ -379,7 +371,7 @@ header ul li a:hover{
   margin: 20px 0px;
   font-size: 20px;
   letter-spacing: .4px;
-  color: aliceblue;
+  color: #537791;
   text-align: center;
   font-weight: bold;
 }
