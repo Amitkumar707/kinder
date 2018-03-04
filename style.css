@@ -113,7 +113,6 @@ header ul li a:hover{
 .poster {
   width: 100%;
   height: 500px;
-  overflow: hidden;
   margin: 0 auto;
 }
 
@@ -130,31 +129,30 @@ header ul li a:hover{
 }
 
 .sbutton1 {
-  position: relative;
-  z-index: 5;
-  float: left;
-  margin-top: 250px;
+  position: absolute;
   padding: 5px;
-  border:none;
+  border: none;
   background-color: #537791;
   font-size: 40px;
   width: 50px;
   color: white;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
-
-.sbutton2{
-  position: relative;
-  z-index: 5;
-  float: right;
-  margin-top: 250px;
+.sbutton1 {
+  position: absolute;
   padding: 5px;
-  border:none;
+  border: none;
   background-color: #537791;
-  color: white;
   font-size: 40px;
   width: 50px;
-
+  color: white;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
+
 
 /*----Welcome Start---- */
 
@@ -164,7 +162,6 @@ header ul li a:hover{
   height: 400px;
   margin: 0 auto;
   padding: 10px;
-  margin-top:-16px;
   overflow: hidden;
   color: #537791;
 }
