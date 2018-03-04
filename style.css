@@ -118,6 +118,9 @@ header ul li a:hover{
 
 .poster-inner {
   margin: 0 auto;
+  width: 1200px;
+  position: relative;
+  height: 500px;
 }
 
 .poster-inner img {
