@@ -39,7 +39,7 @@ p {
 /*Header*/
 
 .head-1 {
-  background-color: #06f8fa;
+  background-color: #537791;
   min-width:100%;
   min-height: 100px;
   margin: 0 auto;
@@ -81,6 +81,7 @@ p {
 }
 .nav li.active {
   height: 80px;
+  background-color: #E7E6E1;
 }
 .nav:hover li {
   height: 60px;
@@ -97,23 +98,12 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #F7F6E7;
 }
 header ul li a:hover{
   color:#000000;
-  background-color: #8888;
+  background-color: #E7E6E1;
 }
-
-.home { background: #ffa200; }
-
-.about { background: #9bb924; }
-
-.event{ background: #f63f41; }
-
-.gallery { background: #fea201; }
-
-.faqs { background: #9bbb15; }
-
-.contact{ background: #f73f41; }
 
 /*----Poster section start------*/
 
@@ -166,7 +156,7 @@ header ul li a:hover{
 /*----Welcome Start---- */
 
 .welcome {
-  background-color: #95c94b;
+  background-color: #E7E6E1;
   width: 100%;
   height: 400px;
   margin: 0 auto;
@@ -242,7 +232,7 @@ header ul li a:hover{
 /*---Center Section Start----*/
 
 .center {
-  background-color: #f73f3f;
+  background-color: #F7F6E7;
   width: 100%;
   height: 520px;
   margin: 0 auto;
@@ -300,7 +290,7 @@ header ul li a:hover{
   width: 100%;
   min-height: 550px;
   margin: 0 auto;
-  background-color: white;
+  background-color: #E7E6E1;
 }
 
 .methods {
@@ -358,7 +348,7 @@ header ul li a:hover{
   width: 100%;
   min-height: 503px;
   margin: 0 auto;
-  background-color: #ffa93a;
+  background-color: #F7F6E7;
 }
 
 .team h2 {
@@ -400,7 +390,7 @@ header ul li a:hover{
 	width: 100%;
     height: 140px;
     margin: 0 auto;
-    background-color: #06f8fa;
+    background-color: #537791;
 }
 
 .some {
