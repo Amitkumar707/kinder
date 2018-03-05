@@ -293,14 +293,14 @@ header ul li a:hover{
 .methods {
   width: 45%;
   float: left;
-  padding: 8% 2%;
+  padding: 30px 2% 8%;
 }
 
 .methods h1 {
-  font-size: 36px;
+  font-size: 30px;
   color: #537791;
-  letter-spacing: -1px;
-  margin-top: -50px;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
 }
 
 .methods p {
