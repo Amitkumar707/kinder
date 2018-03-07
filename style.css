@@ -175,7 +175,8 @@ header ul li a:hover{
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 10px;
-  float: left
+  float: left;
+  color: #537791;
 }
 
 .texter h1 {
@@ -268,6 +269,7 @@ header ul li a:hover{
   margin: 10px 0px 20px 0px;
   letter-spacing: 1.4px;
   line-height: 1.4;
+  font-size: 20px;
 }
 
 .box a {
@@ -295,23 +297,21 @@ header ul li a:hover{
   padding: 30px 2% 8%;
 }
 
-.methods h1 {
-  font-size: 30px;
-  color: #537791;
-  letter-spacing: 1.5px;
-  margin-bottom: 20px;
+.texter h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
 }
-
-.methods p {
-  color: #537791;
+#space_sec{
+    margin-top: 10px;
+}
+.texter p {
   font-size: 20px;
-  margin: 0px 0px 55px 0px;
   letter-spacing: 1.4px;
-  line-height: 1.4;
-}
+  margin-bottom: 25px;
+  }
 
-.methods a {
-  color:azure;
+.texter a {
+  color: azure;
   background-color: #537791;
   display: inline-block;
   width: 150px;
