@@ -305,11 +305,10 @@ header ul li a:hover{
 
 .methods p {
   color: #537791;
-  font-size: 22px;
+  font-size: 20px;
   margin: 0px 0px 55px 0px;
-  letter-spacing: 1px;
+  letter-spacing: 1.4px;
   line-height: 1.4;
-  font-weight: bold;
 }
 
 .methods a {
