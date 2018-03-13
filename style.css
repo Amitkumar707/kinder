@@ -164,7 +164,7 @@ header {
 }
 
 .welcome .texter p {
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 1.4px;
   margin-bottom: 25px;
   }
@@ -184,13 +184,12 @@ header {
   padding: 50px 0;
 }
 .features .box {
-  width: 33.33%;
-  padding-right: 30px;
+  width: 30%;
   box-sizing: border-box;
   float: left;
 }
-.features .box:last-child {
-  padding: 0;
+.features .box:nth-child(2) {
+  margin: 0 5%;
 }
 .features .box h2 {
   color: #537791;
@@ -204,8 +203,8 @@ header {
 }
 .features .box p {
   margin: 10px 0px 20px 0px;
-  letter-spacing: 1.4px;
   line-height: 1.4;
+  font-size: 18px;
 }
 
 /******************/
@@ -217,14 +216,14 @@ header {
 }
 .team h1 {
   color: #537791;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   font-size: 30px;
 }
 .team .boxs {
-  width: 23%;
+  width: 200px;
   min-height: 100%;
   float: left;
-  margin: 20px 10px;
+  margin-right: 100px;
 }
 .team .boxs img {
   width: 200px;
@@ -233,55 +232,33 @@ header {
   display: table;
   margin: auto;
 }
-.team .boxs p {
-  margin: 20px 0px;
-  font-size: 20px;
-  letter-spacing: .4px;
+.team .boxs h2 {
   color: #537791;
-  text-align: center;
-  font-weight: bold;
+  margin-top: 20px;
+}
+.team .boxs p {
+  margin: 10px 0px 20px 0px;
+  line-height: 1.4;
+  color: #537791;
+  margin-bottom: 0;
+  font-size: 18px;
 }
 
-
-.methods {
-  width: 45%;
-  float: left;
-  padding: 30px 2% 8%;
-}
-
-
-
-
-
-.methods-img{
-  width: 40%;
-  float: right;
-  min-height: 100%;
-  padding: 60px 0px
-}
-
-.methods-img img {
-  width: auto;
-  min-height: auto;
-}
-
-
-/*-----Footer section start-----*/
-
+/******************/
+/*     Footer     */
+/******************/
 .foot {
 	width: 100%;
     height: 140px;
     margin: 0 auto;
     background-color: #537791;
 }
-
 .some {
   width: 65%;
   min-height: 100%;
   margin: 0 auto;
   float: left;
 }
-
 .some h2 {
   color: aliceblue;
   font-size: 45px;
@@ -289,21 +266,18 @@ header {
   margin: 2px;
   margin-top: 10px;
 }
-
 .some p {
   color: white;
   font-size: 20px;
   margin-left: 5px;
   margin-bottom: 8px;
 }
-
 .some h3 {
   color: #efeeed;
   font-size: 21px;
   margin-top: 5px;
 font-family: 'Barlow Semi Condensed', sans-serif;
 }
-
 .social {
   width: 100%;
   min-height:100%;
@@ -313,28 +287,23 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 .media {
   padding-left: 970px;
 }
-
 .media i{
   color: aliceblue;
   padding: 20px;
   font-size: 30px;
   margin-top: 12px;
 }
-
 .ul2 ul {
   display: flex;
   padding-left: 20px;
 }
-
 .ul2 ul a{
   color: aliceblue;
   padding: 0px 20px 0px 0px;
 }
-
 .ul2 p{
   color: aliceblue;
 }
-
 .copy {
   margin: 20px 0px 20px 965px;
 }
