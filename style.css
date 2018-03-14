@@ -169,33 +169,33 @@ header {
 }
 
 /******************/
-/*     Features     */
+/*     Gallary     */
 /******************/
 
-.features {
+.gallary {
   background-color: #F7F6E7;
   color: #537791;
   padding: 50px 0;
 }
-.features .box {
+.gallary .box {
   width: 30%;
   box-sizing: border-box;
   float: left;
 }
-.features .box:nth-child(2) {
+.gallary .box:nth-child(2) {
   margin: 0 5%;
 }
-.features .box h2 {
+.gallary .box h2 {
   color: #537791;
   margin-bottom: 15px;
   font-size: 30px;
 }
-.features .box img {
+.gallary .box img {
   width: 100%;
   min-height: 200px;
   margin: 10px 0px ;
 }
-.features .box p {
+.gallary .box p {
   margin: 10px 0px 20px 0px;
   line-height: 1.4;
   font-size: 18px;
